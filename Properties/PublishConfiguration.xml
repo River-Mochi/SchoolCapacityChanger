@@ -2,14 +2,14 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="75190" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="School Capacity Balancer" />
+	<DisplayName Value="School Capacity Changer" />
 	<!--Short description of the mod-->
 	<ShortDescription Value="Modifies the capacity of school buildings" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
-	<LongDescription>
-This mod allows you to easily change the capacity of school buildings based on their education level (elementary, high school, college, and university).
+	<LongDescription># School Capacity Changer
 
+This mod allows you to easily change the capacity of school buildings based on their education level (elementary, high school, college, and university).
 
 The mod uses these pre-set values by default (values relative to vanilla capacities):
 
@@ -18,8 +18,16 @@ The mod uses these pre-set values by default (values relative to vanilla capacit
 * College -> 125%
 * University -> 125%
 
+Option customize the values yourself in the settings.
 
-You can also change these values yourself in the settings.
+## Language Support
+English, French, Spanish, Simplified Chinese
+
+## Credits:
+- River-Mochi - current mod author, added locale support
+- Thanks Wayz for the original School Capacity mod.
+- Necko1996 - code updates, testing
+
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
@@ -32,7 +40,7 @@ You can also change these values yourself in the settings.
 	<!--Version of the mod-->
 	<ModVersion Value="1.2.2" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
+	<GameVersion Value="1.3.6*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->

@@ -1,0 +1,14 @@
+.\Library\ilpp.pid
+.\LICENSE
+.\Localization\LocaleEN.cs
+.\Mod.cs
+.\Properties\PublishConfiguration.xml
+.\Properties\Thumbnail.png
+.\README.md
+.\SchoolCapacityChanger.csproj
+.\SchoolCapacityChanger.sln
+.\SchoolCapacityChangerSystem.cs
+.\Setting.cs
+.editorconfig
+.gitattributes
+.gitignore
